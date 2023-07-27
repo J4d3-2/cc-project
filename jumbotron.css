@@ -4,4 +4,27 @@ body {
   padding-top: 3.5rem;
 }
 
+div h2 {
+	font-family: Stencil;
+}
+
+div h1 {
+	font-family: Pristina;
+}
+
+div p {
+	font-family: Baskerville Old Face;
+}
+
+.nav-link {
+	font-family: Rockwell;
+}
+
+.navbar-brand {
+	font-family: Vivaldi;
+}
+
+nav{
+	color: 
+}
 
