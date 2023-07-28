@@ -29,6 +29,66 @@
           font-size: 3.5rem;
         }
       }
+      div h2 {
+        font-family: Stencil;
+      }
+
+      div h1 {
+        font-family: Pristina;
+        color: white;
+        text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+      }
+
+      div p, footer p {
+        font-family: Baskerville Old Face;
+      }
+
+      .navbar-custom .nav-link {
+        font-family: Rockwell;
+        color: white;
+      }
+
+      .navbar-custom .navbar-brand {
+        font-family: Vivaldi;
+        color: white;
+      }   
+
+      .navbar-custom {
+        background-color: #060748;
+      }
+
+      .btn-outline-success {
+        border-color: #28F4FF;
+        color: #28F4FF;
+      }
+
+      .btn-outline-success:hover {
+        background-color: #28F4FF;
+        color: white;
+      }
+
+      .jumbotron {
+        background-image: url(https://www.jeumobi.com/wp-content/uploads/2022/08/honkai-star-rail-gamescom.jpg);
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #d3color {
+        color: white;
+        text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+      }
 
     </style>
     <!-- Custom styles for this template -->
@@ -36,7 +96,7 @@
     
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-custom fixed-top">
   <a class="navbar-brand" href="#">CC</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -75,7 +135,7 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-3">Hello, Honorary Knight!</h1>
-      <p>Welcome to this simple and humble website. This is nothing big or special or anything, but I do hope you enjoy seeing this</p> <br>
+      <p id="d3color">Welcome to this simple and humble website. This is nothing big or special or anything, but I do hope you enjoy seeing this</p> <br>
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
     </div>
   </div>
